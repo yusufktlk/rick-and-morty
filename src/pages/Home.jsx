@@ -44,8 +44,8 @@ function Home() {
     </div>
 
     <div className='flex justify-between text-3xl font-bold mt-8 lg:mt-10 underline'>
-      <button className='ml-5 md:ml-36 lg:ml-24' onClick={() => geri()}>Next</button>
-      <button className='mr-5 md:mr-36 lg:mr-24' onClick={()  => ileri()}>Previous</button>
+      <button className='ml-5 md:ml-36 lg:ml-24' onClick={() => geri()}>Previous</button>
+      <button className='mr-5 md:mr-36 lg:mr-24' onClick={()  => ileri()}>Next</button>
     </div>
     
     </>
